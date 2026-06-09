@@ -34,6 +34,7 @@ features_TDA/features_topologicas_ventanas.csv
 Figuras_TDA/
 clasificacion_modelos/
 features_TDA/
+upload_manifest.json
 
 # Large or copyrighted references
 *.pdf
