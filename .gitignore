@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local environments
+.venv/
+venv/
+env/
+*.env
+
+# Raw and generated data
+archive/
+archive.zip
+*.zip
+*.mat
+*.npy
+*.npz
+DE_signals/
+DE_signals-20260604T052245Z-3-001/
+DE_signals-20260604T052245Z-3-001.zip
+ventanas_DE/
+
+# Heavy generated feature tables
+clasificacion_modelos/features_clasicas_ventanas.csv
+clasificacion_modelos/features_hibridas_ventanas.csv
+clasificacion_modelos/split_train_test.csv
+features_TDA/features_topologicas_ventanas.csv
+
+# Local duplicate/generated folders from exploratory work
+Figuras_TDA/
+clasificacion_modelos/
+features_TDA/
+
+# Large or copyrighted references
+*.pdf
+
+# Original working copies kept locally; clean public copies live in notebooks/ and src/
+Mantenimiento_predictivo_por_medio_de_TDA.ipynb
+Clasificacion_features_TDA.ipynb
+mantenimiento_predictivo_por_medio_de_tda.py
+Proyecto TDA - Plan de trabajo.txt
+Análisis exploratorio de señales - resultados.txt
+An*lisis exploratorio de se*ales - resultados.txt
+comparacion_severidad_estadisticos.csv
+estadisticos_clasicos_senales.csv
+taus_acf_senales.csv
+taus_acf_señales.csv
+taus_acf_se*ales.csv
+
+# OS/editor
+.DS_Store
+Thumbs.db
+desktop.ini
